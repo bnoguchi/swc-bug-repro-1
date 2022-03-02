@@ -19,7 +19,9 @@ $ node out.js
 { aaa: 'bbb', bbb: 3 }
 ```
 
-We get different results because `out.js` ends up conflating 2 variables.
+If swc were working correctly, then we would expect to get the same result.
+However, we get different results because `out.js` ends up conflating 2
+variables.
 
 For index.js, we have:
 
