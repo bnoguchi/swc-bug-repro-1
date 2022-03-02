@@ -25,7 +25,7 @@ variables.
 
 For index.js, we have:
 
-```
+```javascript
 'use strict';
 
 function print() {
@@ -50,7 +50,7 @@ console.log(print());
 
 For out.js, we have:
 
-```
+```javascript
 'use strict';
 function print() {
     var value$42 = 2;
